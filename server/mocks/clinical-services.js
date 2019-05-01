@@ -15,12 +15,12 @@ module.exports = function(app) {
           {
             "visitDate":"11/22/2018",
             "resonForVisit":"itchy ankle",
-            "facility":"7 eleven"
+            "facility":"walmart walk in"
           },
           {
             "visitDate":"10/14/2018",
             "resonForVisit":"black eye",
-            "facility":"Olive Garden"
+            "facility":"Walgreens"
           }
         ]
       });
