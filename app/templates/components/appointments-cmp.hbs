@@ -1,0 +1,7 @@
+{{#if appointments}}
+    {{#each appointments.results as |appointment|}}
+        {{appointment-cmp appointment=appointment isLoading="false"}}
+    {{/each}}
+{{else}}
+    {{appointment-cmp appointment=appointment isLoading="true"}}
+{{/if}}

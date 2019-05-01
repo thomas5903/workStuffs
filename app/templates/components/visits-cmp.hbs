@@ -1,0 +1,7 @@
+{{#if visits}}
+    {{#each visits.results as |visit|}}
+        {{visit-cmp visit=visit isLoading="false"}}
+    {{/each}}
+{{else}}
+    {{visit-cmp visit=visit isLoading="true"}}
+{{/if}}

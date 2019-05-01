@@ -1,0 +1,12 @@
+{{#if visit}}
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">{{visit.visitDate}}</h4>
+        <p class="list-group-item-text">{{visit.resonForVisit}}</p>
+        <p class="list-group-item-text">{{visit.facility}}</p>
+    </a>
+{{else}}
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading"><i class="fas fa-spinner fa-pulse"></i></h4>
+        <p class="list-group-item-text">I'm still loading bro...</p>
+    </a>
+{{/if}}
