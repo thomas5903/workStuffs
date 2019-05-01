@@ -2,7 +2,11 @@
 
 module.exports = function(app) {
   const express = require('express');
+  const bodyParser = require('body-parser')
   let clinicalServicesRouter = express.Router();
+
+  clinicalServicesRouter.use(bodyParser.json()); // support json encoded bodies
+  clinicalServicesRouter.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
   clinicalServicesRouter.get('/visits', function(req, res) {
     setTimeout(() => {
@@ -38,6 +42,7 @@ module.exports = function(app) {
   });
 
   clinicalServicesRouter.post('/', function(req, res) {
+    //req.body
     res.status(201).end();
   });
 

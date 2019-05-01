@@ -8,9 +8,9 @@ A short introduction of this app could easily go here.
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [nvm windows](https://github.com/coreybutler/nvm-windows/releases)
+* [Node.js](https://nodejs.org/) (i'm using v10.15.1)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
